@@ -1,0 +1,26 @@
+body:hover {
+  transition: all 1s;
+}
+
+body:hover .contImg {
+  height: 30vh;
+}
+
+body:hover .contImg img {
+  opacity: 0.5;
+  transform: scale(1.5);
+}
+
+body:hover main {
+  transform: translateY(-65%);
+}
+
+body:hover main article {
+  display: block;
+}
+
+body:hover main article p {
+  height: auto;
+  overflow: auto;
+}
+/*# sourceMappingURL=hover.css.map */

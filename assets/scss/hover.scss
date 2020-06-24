@@ -1,0 +1,33 @@
+body{
+    &:hover {
+        transition: all 1s;
+
+        .contImg{
+            height:30vh;
+                
+            img {
+                opacity:0.5;
+                transform:scale(1.5);
+                }
+            }
+        
+        main {
+            -webkit-transform: translateY(-65%);
+            transform: translateY(-65%);
+
+            article {
+                display:block;
+
+                p{
+                    height:auto;
+                    overflow:auto;
+                }
+            }
+        }
+    }
+}
+
+
+            
+        
+    
